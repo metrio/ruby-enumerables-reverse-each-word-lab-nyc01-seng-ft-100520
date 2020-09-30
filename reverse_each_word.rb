@@ -6,3 +6,6 @@ orig_sentence.each do |word|
 end
 return_sentence.join(" ")
 end
+
+def reverse_collect_word(sentence)
+  
