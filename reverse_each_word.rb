@@ -9,5 +9,6 @@ end
 
 def reverse_collect_word(sentence)
   new_sentence = sentence.split
+  return_sent = []
   new_sentence.each do |word|
     
