@@ -8,4 +8,6 @@ return_sentence.join(" ")
 end
 
 def reverse_collect_word(sentence)
-  
+  new_sentence = sentence.split
+  new_sentence.each do |word|
+    
