@@ -1,4 +1,4 @@
-def reverse_each_word(sentence)
+def reverse_each_word_withe(sentence)
 return_sentence = []
 orig_sentence =  sentence.split 
 orig_sentence.each do |word|
@@ -7,7 +7,7 @@ end
 return_sentence.join(" ")
 end
 
-def reverse_collect_word(sentence)
+def reverse_each_word(sentence)
   new_sentence = sentence.split
   return_sent = []
   new_sentence.collect do |word|
